@@ -1,76 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mobile Agency</title>
+
+    <style> 
+        html {
+            scroll-behavior: smooth;
+            /* This is the secret sauce for sticky menus */
+            scroll-padding-top: 100px; 
+        }
+        body {
+            background-color: #0f172a; 
+            color: #f8fafc; 
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #0f172a;
+            padding: 15px 0;
+            border-bottom: 1px solid #1e293b;
+            z-index: 1000;
+        }
+        nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        section {
+            /* This makes the page long enough so the links can actually 'jump' */
+            min-height: 55vh; 
+            padding: 40px 0;
+            border-bottom: 1px solid #1e293b;
+        }
+        h1, h2 { color: #38bdf8; }
+    </style>
 </head>
 <body>
 
-    <header>
-        <h1>[Digital home ]</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Me</a>
+    </nav>
+
+    <header id="home">
+        <h1>[Digital home]</h1>
         <p>Expert Web Development, Straight from Mobile.</p>
     </header>
-
-    <nav>
-      <a href ="#Services">Services</a>
-        </nav>
 
     <main>
         <section id="services">
             <h2>What I Offer</h2>
             <ul>
                 <li>A landing page</li>
-                <li>A professional buisness website</li>
-                <li>Annonimus website</li>
-                <li>School website</li>
-                <li>Professional website</li>
-                <li>Landing page</li>
-                
-                
-                
-                
-                
-                
-                
+                <li>A professional business website</li>
+                <li>Anonymous website making</li>
+                <li>School website making</li>
             </ul>
         </section>
 
         <section id="about">
             <h2>Why Choose Me?</h2>
-            <p>
-
-Why you should choose me?
-Don’t. Not unless you see my work for yourself.
-
-I can code your expectation into reality — to the extent that’s humanly possible. I won’t say I’m the best. But I will say this: I’m what you won’t regret after paying.
-
-If you decide to hire me, I’ll give you the best of my work. Want a website for your school? Done. Want a site for anonymous posts? Done. Anything you want done — as long as it’s legal — I’ll make it happen.
-
-On top of that: fantastic personality (very funny, zero extra charge), and the price is affordable. I don’t want my clients to have empty pockets after getting their website. You should still be able to buy coffee — or celebrate your new site with a sandwich.
-
-So yeah. Don’t choose me because I said so. Look at what I’ve done. Then decide. But if you do choose me, you’ll get solid work, a few laughs, and a bill that won’t hurt your soul Here are a few more lines to tack onto the end, keeping the same honest, cheeky, and client-friendly vibe:
-
-And no, I won't disappear after the job is done. If something breaks or you just forgot how to log in — I'll be around. I reply faster than your friend who owes you money.
-
-I don't do fake promises or overcomplicate things. You tell me what you want, I build it, we both sleep well at night.
-
-So if you're tired of overpriced "agencies" that talk in circles and charge in thousands — send me a message. Worst case? You waste five minutes. Best case? You finally get your website without losing your rent money.
-
-Let's build something real. Not perfect — but yours.</p>
+            <p>Why you should choose me? Don’t. Not unless you see my work for yourself</p>
+            <p>I provide a wide range of web development under legal terms and conditions and also will be avalable fro 3 changes before i charge for it but dont worry i will not ghost you after payment only</p>
         </section>
     </main>
-<nave>
-  <a href ="Web page"> Web page</a>
-  
-  <a href ="Professitional website"> Professional website</a>
- 
-  <a href ="School website"> School website</a>
-</nave>
+
     <footer>
-        <p>&copy; 2026 [Tayief sameer]. Built on a Smartphone with love and care.</p>
+        <p>&copy; 2026 Tayief Sameer. Built on a Smartphone with love and care.</p>
     </footer>
 
 </body>
 </html>
-
